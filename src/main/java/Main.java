@@ -8,5 +8,14 @@ public class Main {
         descriptionCard1.descriptoin = "самый лучший в мире пылесос";
 
         card1.description = descriptionCard1;
+
+        Flat flat1 = new Flat();
+        Hall hall = new Hall();
+        hall.square = 15;
+        hall.isTV = true;
+
+        Kitchen kitchen = new Kitchen();
+        kitchen.square = 12;
+        kitchen.stove = "плита";
     }
 }

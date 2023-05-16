@@ -1,4 +1,3 @@
-public class Kitchen {
-    int square;
+public class Kitchen extends Room{
     String stove;
 }
